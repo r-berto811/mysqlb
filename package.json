@@ -1,0 +1,30 @@
+{
+  "name": "mysqlb",
+  "version": "0.0.1",
+  "description": "The library includes a set of simple methods for quickly constructing queries to the database",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r-berto811/mysqlb.git"
+  },
+  "keywords": [
+    "mysql",
+    "query",
+    "builder",
+    "pagination",
+    "simple"
+  ],
+  "author": {
+    "name": "Roman Loboda",
+    "email": "r.berto811@gmail.com"
+  },
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "simple-mysql-builder": "0.0.1"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/r-berto811/mysqlb",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
