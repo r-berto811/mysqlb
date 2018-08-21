@@ -19,8 +19,7 @@
     "email": "r.berto811@gmail.com"
   },
   "dependencies": {
-    "mysql": "^2.16.0",
-    "simple-mysql-builder": "0.0.1"
+    "mysql": "^2.16.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/r-berto811/mysqlb",
