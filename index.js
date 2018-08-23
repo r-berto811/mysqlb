@@ -156,6 +156,7 @@ class Builder {
       cb(null)
     }
     Builder._connection.end((err) => {
+      Builder._connection = null
       cb(err)
     })
   }

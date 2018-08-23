@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/r-berto811/mysqlb.git"
   },
+  "scripts": {
+    "test": "mocha --ui tdd --reporter spec --colors tests"
+  },
   "keywords": [
     "mysql",
     "query",
@@ -24,6 +27,14 @@
   "license": "MIT",
   "homepage": "https://github.com/r-berto811/mysqlb",
   "devDependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^6.0.0",
+    "mocha": "^5.2.0",
     "standard": "^11.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "/tests"
+    ]
   }
 }
