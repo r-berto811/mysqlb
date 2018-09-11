@@ -1,6 +1,6 @@
 {
   "name": "mysqlb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The library includes a set of simple methods for quickly constructing queries to the database",
   "main": "index.js",
   "repository": {
